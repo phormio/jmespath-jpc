@@ -17,7 +17,7 @@ Valid values for <library>:
  *
  * @param {string[]} args
  * @param {Stream} stream
- * @return {*}
+ * @return {string}
  */
 async function argsToQueryResult(args, stream) {
   const program = new Command();
