@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+
+const { argsToQueryResult } = require('../argsToQueryResult');
+
+(async () => {
+  console.log('%s', await argsToQueryResult(process.argv, process.stdin));
+})();
